@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
+
+#header {
+
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@font-face {
+  font-family: Silkscreen-Regular;
+  src: url('Silkscreen/Silkscreen-Regular.ttf');
+}
+
+#header {
+  font-family: Silkscreen-Regular, outline;
+  font-weight: bolder;
+  color: black;
+}
+
+#logo {
+  width: 200 px;
+  height: auto;
+  animation-direction: normal;
+}
+
+.heading {
+  text-align: center;
+  font-family: cursive;
+}
+
+.form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  flex-flow: wrap;
+}
+
+.formElement,
+input {
+  width: 100%;
+  display: block;
+}
+
+.button {
+  background: rebeccapurple;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #b58484;
+  text-shadow: none;
+  height: 35%;
+  width: 20%;
+  margin-top: 1%;
+  align-content: center;
+}
+
+.button:hover {
+  background: green;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #220606;
+  text-shadow: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.meme {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 10px 19px -8px rgb(39, 96, 189);
+  -moz-box-shadow: 10px 10px 19px -8px rgb(65, 165, 93);
+  box-shadow: 10px 10px 19px -8px rgba(163, 62, 78, 3);
+}
+
+.meme:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.closeX {
+  font-size: 5em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  position: fixed;
+  top: 70;
+  right: 70;
+  opacity: 0;
+  width: 100%;
+  padding: 0.40 em 0;
+  border-radius: 50px;
+  text-align: center;
+  color: black;
+
+}
+
+.closeX:hover {
+  opacity: 1;
+}
+
+.topText,
+.bottomText {
+  position: absolute;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  padding: 0 5px;
+
+
+}
+
+@font-face {
+  font-family: Russo_One;
+  src: url('Russo_One/Russo_One-Regular.ttf');
+}
+
+.topText,
+.bottomText {
+  font-family: Russo_One-Regular, impact;
+  font-weight: bolder;
+  font-size: 2.5 em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 0 #101010, -2px -2px 0 #000, 2px -2px 0 #070000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.topText {
+  top: 0;
+}
+
+.bottomText {
+  bottom: 0;
+}
+
+.meme-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
